@@ -51,6 +51,77 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "player_water",
+            "id": "8f0a45ff-bf2a-4bfa-8290-b2af38b112a9",
+            "actions": [
+                {
+                    "name": "go to click",
+                    "type": "Button",
+                    "id": "df049bfb-74e7-4e6a-ac19-35bec879a70e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "position on screen",
+                    "type": "Value",
+                    "id": "e0f4e046-90c1-4248-9525-9797d19a8510",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "interact",
+                    "type": "Button",
+                    "id": "a926f6c0-e1b6-4b5f-a1e7-d40c894bc774",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cea616fc-2cf0-4db0-a8f4-d1a0c0220cfb",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "go to click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4bb689b9-3fad-4145-af89-94e1b2aa09db",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "position on screen",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a9270dc2-efa2-4031-8b27-d91b791b0c76",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []
