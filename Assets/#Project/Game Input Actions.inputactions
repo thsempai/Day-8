@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "name": "Game Input Actions",
+    "maps": [
+        {
+            "name": "game",
+            "id": "41f31014-746d-40f3-a925-6a1a1da330aa",
+            "actions": [
+                {
+                    "name": "place item",
+                    "type": "Button",
+                    "id": "145f097b-56d1-4553-83c4-dc0f0b8ec223",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "mouse position",
+                    "type": "Value",
+                    "id": "ee7fd9ea-4029-4a92-ba7c-69d3108f3f28",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0839f01b-2dd3-4bde-b19e-ef2a322307de",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "place item",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0ffd0fd9-4c44-43d7-b160-fc71b9a9c44f",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "mouse position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
